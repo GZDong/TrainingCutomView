@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -55,6 +56,11 @@ public class TestDrawLayout extends View {
         canvas.drawArc(700, 800, 900, 1100, 90, 90, false, paint);
         paint.setStyle(Paint.Style.STROKE);
         canvas.drawArc(950, 800, 1150, 1100, 90, 90, false, paint);
-
+        //path
+        Path path = new Path();
+//        path.addArc();
+//        path.lineTo();
+//        path.rLineTo();
+//        path.moveTo();
     }
 }
